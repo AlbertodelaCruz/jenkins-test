@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'ip addr'
+        sh '''whoami 
+env'''
       }
     }
   }
